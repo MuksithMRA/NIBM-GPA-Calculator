@@ -39,22 +39,25 @@ function calculateFinalGpa() {
   if (tot_up > 0) {
     final_gpa = tot_up / tot_credit;
     if (final_gpa >= 3.8) {
-      $("#result-modal .modal-body img").attr("src", "/img/distinction.jpg");
+      $("#result-modal .modal-body img").attr("src", "https://muksithmra.github.io/NIBM-GPA-Calculator/img/distinction.jpg");
       $("#result-modal .modal-body #grade").text("Distinction");
+      $("#result-modal .modal-body #grade").addClass("text-danger");
       $("#result-modal .modal-body #grade").addClass("text-success");
       $("#result-modal .modal-body #motivation").text(
         "You are the Best  , Well Done !"
       );
     } else if (final_gpa >= 3.3) {
-      $("#result-modal .modal-body img").attr("src", "/img/pass.jpg");
+      $("#result-modal .modal-body img").attr("src", "https://muksithmra.github.io/NIBM-GPA-Calculator/img/pass.jpg");
       $("#result-modal .modal-body #grade").text("Pass");
+      $("#result-modal .modal-body #grade").removeClass("text-danger");
       $("#result-modal .modal-body #grade").addClass("text-success");
       $("#result-modal .modal-body #motivation").text(
         "Congratulation Work More Hard !"
       );
     } else {
-      $("#result-modal .modal-body img").attr("src", "/img/fail.jpg");
+      $("#result-modal .modal-body img").attr("src", "https://muksithmra.github.io/NIBM-GPA-Calculator/img/fail.jpg");
       $("#result-modal .modal-body #grade").text("Fail");
+      $("#result-modal .modal-body #grade").removeClass("text-success");
       $("#result-modal .modal-body #grade").addClass("text-danger");
       $("#result-modal .modal-body #motivation").text(
         "It's Ok , Let's Try again !"
