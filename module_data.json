@@ -1,54 +1,54 @@
 [
     {
         "id": 1,
-        "credit": 1
+        "credit": 3
     },
     {
-        "id": 1,
-        "credit": 1
+        "id": 2,
+        "credit": 3
     },
     {
-        "id": 1,
-        "credit": 1
+        "id": 3,
+        "credit": 3
     },
     {
-        "id": 1,
-        "credit": 1
+        "id": 4,
+        "credit": 4
     },
     {
-        "id": 1,
-        "credit": 1
+        "id": 5,
+        "credit": 2
     },
     {
-        "id": 1,
-        "credit": 1
+        "id": 6,
+        "credit": 4
     },
     {
-        "id": 1,
-        "credit": 1
+        "id": 7,
+        "credit": 3
     },
     {
-        "id": 1,
-        "credit": 1
+        "id": 8,
+        "credit": 4
     },
     {
-        "id": 1,
-        "credit": 1
+        "id": 9,
+        "credit": 4
     },
     {
-        "id": 1,
-        "credit": 1
+        "id": 10,
+        "credit": 4
     },
     {
-        "id": 1,
-        "credit": 1
+        "id": 11,
+        "credit": 4
     },
     {
-        "id": 1,
-        "credit": 1
+        "id": 12,
+        "credit": 4
     },
     {
-        "id": 1,
-        "credit": 1
+        "id": 13,
+        "credit": 3
     }
 ]
