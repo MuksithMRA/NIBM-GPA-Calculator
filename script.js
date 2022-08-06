@@ -4,7 +4,7 @@ const calculate_btn = document.querySelector("#calculate");
 let gpa_s = [];
 let module_data = [];
 
-$.getJSON("/module_data.json", function (data, textStatus, jqXHR) {
+$.getJSON("https://muksithmra.github.io/NIBM-GPA-Calculator/module_data.json", function (data, textStatus, jqXHR) {
   module_data = data;
 });
 
