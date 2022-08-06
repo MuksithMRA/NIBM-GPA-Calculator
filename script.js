@@ -41,7 +41,7 @@ function calculateFinalGpa() {
     if (final_gpa >= 3.8) {
       $("#result-modal .modal-body img").attr("src", "https://muksithmra.github.io/NIBM-GPA-Calculator/img/distinction.jpg");
       $("#result-modal .modal-body #grade").text("Distinction");
-      $("#result-modal .modal-body #grade").addClass("text-danger");
+      $("#result-modal .modal-body #grade").removeClass("text-danger");
       $("#result-modal .modal-body #grade").addClass("text-success");
       $("#result-modal .modal-body #motivation").text(
         "You are the Best  , Well Done !"
